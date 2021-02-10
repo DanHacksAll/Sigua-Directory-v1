@@ -1,0 +1,380 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: "Lobster", sans-serif;
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 8rem;
+  font-family: "Lobster", sans-serif;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 3.5rem;
+}
+
+h4 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 2.5rem;
+}
+
+li {
+  font-size: 2rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+.nav-container {
+  background: #e68507;
+  padding: 20px;
+}
+
+.sigua-logo {
+  height: 5rem;
+  padding-left: 2rem;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background: #e68507;
+  color: white;
+  padding: 12px 5px;
+  font-size: 19px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  float: right;
+  padding-right: 3rem;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 1.6rem;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+  border-radius: 5rem;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  border-radius: 1.6rem;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  border-radius: 12rem;
+  background: #e99a33;
+}
+
+.dropdown-content {
+  max-height: 300px;
+  opacity: 1;
+  overflow-y: scroll;
+}
+
+.background {
+  margin-bottom: -10px;
+}
+
+.background-image {
+  width: 100%;
+  height: 590px;
+}
+
+.card-container {
+  text-align: center;
+  padding: 15px;
+}
+
+.card-article {
+  background-color: white;
+  padding: 20px;
+  display: inline-block;
+  width: 300px;
+  text-align: center;
+  border: solid 2px;
+  border-radius: 12px;
+  margin: 4px;
+}
+
+.image-figure {
+  position: relative;
+  border-radius: 12px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 25rem;
+}
+
+.titulo {
+  color: #df8613;
+}
+
+.para {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+.card-article:hover {
+  -webkit-box-shadow: 0 20px 20px 0 rgba(34, 68, 123, 0.2);
+          box-shadow: 0 20px 20px 0 rgba(34, 68, 123, 0.2);
+  cursor: pointer;
+}
+
+footer {
+  min-height: 10vh;
+  background: #e68507;
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .whatsapp {
+  height: 32px;
+}
+
+footer .facebook {
+  height: 32px;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  list-style: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer h1 {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+.card-container-super {
+  text-align: center;
+  padding: 15px;
+}
+
+.card-article-super {
+  background-color: white;
+  padding: 20px;
+  display: inline-block;
+  width: 300px;
+  text-align: center;
+  border-radius: 12px;
+  margin: 4px;
+}
+
+.image-figure-super {
+  position: relative;
+  border-radius: 12px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 25rem;
+}
+
+.titulo-super {
+  color: #eea00e;
+}
+
+.para-super {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+.card-article-super:hover {
+  -webkit-box-shadow: 0 20px 20px 0 rgba(34, 68, 123, 0.2);
+          box-shadow: 0 20px 20px 0 rgba(34, 68, 123, 0.2);
+  cursor: pointer;
+}
+
+.social {
+  text-decoration: none;
+  font-size: 15px;
+}
+
+#div-id-social {
+  margin: 3px;
+}
+
+.div-social-w {
+  background-color: green;
+  width: 200px;
+  padding: 10px;
+  border-radius: 12px;
+  color: white;
+  font-size: 20px;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.imagen-social-w {
+  height: 34px;
+  float: left;
+  padding-bottom: 5px;
+}
+
+.div-social-f {
+  background-color: #2222ff;
+  width: 200px;
+  padding: 10px;
+  border-radius: 12px;
+  color: white;
+  font-size: 20px;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.imagen-social-f {
+  height: 34px;
+  float: left;
+  padding-bottom: 5px;
+}
+
+.div-social-i {
+  background-color: #fd1d1d;
+  width: 200px;
+  padding: 10px;
+  border-radius: 12px;
+  color: white;
+  font-size: 20px;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.imagen-social-i {
+  height: 34px;
+  float: left;
+  padding-bottom: 5px;
+}
+
+.bodega {
+  background-image: url(../img/bodega.jpg);
+  background-size: cover;
+}
+
+.delivery {
+  background-image: url(../img/deliverys.jpg);
+  background-size: cover;
+}
+
+.pizzeria {
+  background-image: url(../img/pizza.jpg);
+  background-size: cover;
+}
+
+.restaurante {
+  background-image: url(../img/restaurantes.jpg);
+  background-size: cover;
+}
+
+.ropa {
+  background-image: url(../img/ropa.jpg);
+  background-size: cover;
+}
+
+.salon {
+  background-image: url(../img/salon.jpg);
+  background-size: cover;
+}
+
+.turismo {
+  background-image: url(../img/turismo1.jpg);
+  background-size: cover;
+}
+
+.card-container-super {
+  background-image: url(../img/super1.jpg);
+  background-size: cover;
+}
+
+.card-main {
+  background-color: #83c5be;
+}
+
+.titulo1 {
+  font-size: 60px;
+  text-shadow: orangered 2px 2px;
+}
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 50%;
+  }
+  .background-image {
+    height: 300px;
+  }
+  footer h1 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,39 @@
+.card-container {
+  text-align: center;
+  padding: 15px;
+}
+
+.card-article {
+  background-color: white;
+  padding: 20px;
+  display: inline-block;
+  width: 300px;
+  text-align: center;
+  border: solid 2px;
+  border-radius: 12px;
+  margin: 4px;
+}
+
+.image-figure {
+  position: relative;
+  border-radius: 12px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 25rem;
+}
+
+.titulo {
+  color: rgb(223, 134, 19);
+}
+
+.para {
+  color: rgb(0, 0, 0);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+.card-article:hover {
+  box-shadow: 0 20px 20px 0 rgba(34, 68, 123, 0.2);
+  cursor: pointer;
+}

@@ -1,0 +1,95 @@
+.card-container-super {
+  text-align: center;
+  padding: 15px;
+}
+
+.card-article-super {
+  background-color: white;
+  padding: 20px;
+  display: inline-block;
+  width: 300px;
+  text-align: center;
+  border-radius: 12px;
+  margin: 4px;
+}
+
+.image-figure-super {
+  position: relative;
+  border-radius: 12px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 25rem;
+}
+
+.titulo-super {
+  color: rgb(238, 160, 14);
+}
+
+.para-super {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+.card-article-super:hover {
+  box-shadow: 0 20px 20px 0 rgba(34, 68, 123, 0.2);
+  cursor: pointer;
+}
+
+.social {
+  text-decoration: none;
+  font-size: 15px;
+}
+
+#div-id-social {
+  margin: 3px;
+}
+
+.div-social-w {
+  background-color: green;
+  width: 200px;
+  padding: 10px;
+  border-radius: 12px;
+  color: white;
+  font-size: 20px;
+  cursor: grab;
+}
+
+.imagen-social-w {
+  height: 34px;
+  float: left;
+  padding-bottom: 5px;
+}
+
+.div-social-f {
+  background-color: rgb(34, 34, 255);
+  width: 200px;
+  padding: 10px;
+  border-radius: 12px;
+  color: white;
+  font-size: 20px;
+  cursor: grab;
+}
+
+.imagen-social-f {
+  height: 34px;
+  float: left;
+  padding-bottom: 5px;
+}
+
+.div-social-i {
+  background-color: #fd1d1d;
+  width: 200px;
+  padding: 10px;
+  border-radius: 12px;
+  color: white;
+  font-size: 20px;
+  cursor: grab;
+}
+
+.imagen-social-i {
+  height: 34px;
+  float: left;
+  padding-bottom: 5px;
+}

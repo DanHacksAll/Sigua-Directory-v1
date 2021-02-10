@@ -10,3 +10,5 @@ Online telephone directory of the city of Siguatepeque.
 [Sigua Directoy](https://sigua.casa)
 
 **Sigua Directory by Aleman Technologies**
+
+__Copyright (c) 2021 Daniel Aleman__
